@@ -1,9 +1,17 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <script>
+            function myFunction(){
+                document.getElementById("Demo").innerHTML = "Paragraph Changed";
+            }
+        </script>
+    </head>
     <body>
         <h2>What can javascript do?</h2>
-        <p id="demo">Javascript can change HTML content</p>
+        <p id="demo">First Tuto</p>
         <button type="button" onclick='document.getElementById("demo").innerHTML = "hello javascript"'>gitClick Me</button>
-        <h1>hahahahaha</h1>
+        <p id="Demo">Second Tuto</p>
+        <button type="button" onclick="myFunction()">Try It</button>
     </body>
 </html>
