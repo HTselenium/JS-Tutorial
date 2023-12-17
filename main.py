@@ -70,4 +70,4 @@ if response.status_code == 200:
     else:
         print("No Pull Requests Found")
 else:
-    print("Failed to fetch pull requests")
+    print("Failed to fetch pull requests.")
